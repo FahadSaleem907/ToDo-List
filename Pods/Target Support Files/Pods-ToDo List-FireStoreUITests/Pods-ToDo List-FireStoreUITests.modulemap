@@ -1,0 +1,6 @@
+framework module Pods_ToDo_List_FireStoreUITests {
+  umbrella header "Pods-ToDo List-FireStoreUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

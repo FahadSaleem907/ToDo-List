@@ -1,0 +1,6 @@
+framework module Pods_ToDo_List_FireStore {
+  umbrella header "Pods-ToDo List-FireStore-umbrella.h"
+
+  export *
+  module * { export * }
+}

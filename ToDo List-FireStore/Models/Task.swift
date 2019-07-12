@@ -22,4 +22,10 @@ struct Task : Codable
             task        = try values.decodeIfPresent(String.self, forKey: .task)
     }
     
+    init( date : String , priority : String , task : String? )
+    {
+        self.date       = date
+        self.priority   = priority
+        self.task       = task
+    }
 }

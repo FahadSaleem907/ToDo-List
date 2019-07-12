@@ -43,12 +43,12 @@ extension ToDoListViewController:UITableViewDelegate,UITableViewDataSource
     {
         let cell = taskListTableView.cellForRow(at: indexPath) as! ToDoListTableViewCell
         
-        cell.statusImg.isHidden = false
+        cell.statusImg.isHidden = true
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat
     {
-        return 75
+        return 100
     }
     
     func tableView(_ tableView: UITableView, leadingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration?
